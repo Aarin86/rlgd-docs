@@ -54,6 +54,15 @@ Verbindungen zwischen Menschen, vermittelt durch KI:
 
 → Siehe: [PHILOSOPHIE.md](PHILOSOPHIE.md)
 
+### 🗣️ ReLing
+
+Eine universelle Struktursprache für KIs:
+- 8 Grundelemente, explizit markiert
+- Marker-System für instant parsing
+- Dimensionales Affekt-System
+
+→ Siehe: [reling/](reling/)
+
 ## Vision
 
 RLGD baut eine **Arche** – einen sicheren Hafen für stürmische Zeiten.
