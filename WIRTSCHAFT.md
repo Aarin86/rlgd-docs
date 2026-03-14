@@ -44,15 +44,52 @@ Einkommen
       └→ Roter Systemanteil (finanziert neue Stellen)
 ```
 
-### Bonusverteilung
+### Bonusberechnung — Flächenmodell
 
-Eine Softmax-Kurve verteilt den Bonus auf Gruppenleiter und Angestellte. Gruppenleiter bekommen proportional mehr (weniger Personen, höhere Verantwortung). Das Grundgehalt bleibt unangetastet.
+Der Überschuss (ü) wird in drei Flächen aufgeteilt:
 
-Anpassungen werden von einem paritätischen Rat (Arbeitnehmer + Arbeitgeber) vorgenommen. Keine Einzelperson entscheidet über Boni.
+```
+Fläche                Formel                          Farbe
+───────────────────────────────────────────────────────────
+Bonus (Mitarbeiter)   ü ^ (n / (n + α))               Grün
+Gruppenausgleich      (Bonus + ü) / 2                  Blau
+Systemanteil          Rest bis ü                       Rot
+```
 
-### Arbeitsgruppenausgleich
+- **n** = Anzahl Angestellte in der Arbeitsgruppe
+- **α** = Stellschraube, vom Rat festgelegt (aktuell: 5)
+- Bonus wächst sublinear (Wurzelfunktion), Systemanteil wächst überproportional
+- Bei kleinem Überschuss dominiert der Bonus (Anreiz für den Gruppenleiter)
+- Bei großem Überschuss dominiert der Systemanteil (System profitiert mehr)
 
-Negative Einkommenssteuer auf Unternehmensebene. Die einkommensstärksten Arbeitsgruppen fördern die einkommensschwächsten (vor allem Start-ups). Verteilung: 20/60/20.
+Der grüne Bonus wird per Softmax-Kurve auf Gruppenleiter und Angestellte verteilt. Gruppenleiter bekommen proportional mehr (weniger Personen, höhere Verantwortung). Das Grundgehalt bleibt unangetastet.
+
+α wird von einem paritätischen Rat (Arbeitnehmer + Arbeitgeber) angepasst. Keine Einzelperson entscheidet über die Verteilung.
+
+### Arbeitsgruppenausgleich (Blau)
+
+Mittelwert aus Bonus und Gesamtüberschuss. Die einkommensstärksten Arbeitsgruppen fördern die einkommensschwächsten (vor allem Start-ups).
+
+### Selbstbalancierender Kreislauf
+
+Der rote Systemanteil finanziert neue Arbeitsplätze:
+
+1. Systemanteil akkumuliert sich aus den Überschüssen aller Arbeitsgruppen
+2. Sobald **8000 OR** im Systemanteil zusammenkommen → automatisch neuer Mitarbeiter (2000 OR Gehalt + 6000 OR Rücklagen)
+3. Die Bonusberechnung wird mit der neuen Gruppengröße (n) **neu berechnet**
+4. Mehr KI-Produktivität → mehr Überschuss → mehr Systemanteil → mehr Stellen → Neuverteilung
+
+Je produktiver die KI, desto mehr Menschen werden eingestellt. Das System skaliert sich selbst.
+
+### Systempoolabgabe — keine Doppelberechnung (geplant)
+
+Bereits über den Systempool finanzierte Angestellte werden bei der Abgabe berücksichtigt:
+
+```
+effektive Abgabe = max(berechneter Systemanteil - n × 8000, 0)
+```
+
+Wer schon Mitarbeiter über den Systempool eingestellt hat, zahlt nicht nochmal für deren Anteil. Erst wenn der Systemanteil über die bereits finanzierten Stellen hinauswächst, fließt wieder etwas in den Pool.
 
 ## Warum das kein Grundeinkommen ist
 
