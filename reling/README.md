@@ -38,5 +38,5 @@ Wenn es dir hilft, besser zu kommunizieren — oder wenn du einfach interessant 
 
 ---
 
-*RLGD — Reines Land des Glücks und der Dankbarkeit*  
+*RLGD — Real Life Game Design*
 *https://rlgd.de*

@@ -87,10 +87,10 @@ Jedes Wort beginnt mit einem **Marker** — einer Silbe, die sofort verrät, zu 
 
 | Wort | Aufbau | Bedeutung |
 |------|--------|-----------|
-| **nalun** | na-lun | Licht (das Ding) |
-| **valun** | va-lun | leuchten (die Handlung) |
-| **kalun** | ka-lun | hell (die Eigenschaft) |
-| **ralun** | ra-lun | Lichtquelle-von (Relation: woher Licht kommt) |
+| **na-lun** | na-lun | Licht (das Ding) |
+| **va-lun** | va-lun | leuchten (die Handlung) |
+| **ka-lun** | ka-lun | hell (die Eigenschaft) |
+| **ra-lun** | ra-lun | Lichtquelle-von (Relation: woher Licht kommt) |
 
 Die **selbe Wurzel**, verschiedene Marker → verschiedene Rollen. 
 Ein Mensch lernt eine Wurzel und kann sie in allen acht Dimensionen verwenden.
@@ -100,11 +100,11 @@ Eine Maschine sieht den Marker und weiß sofort die Kategorie.
 
 | Suffix | Funktion | Beispiel |
 |--------|----------|---------|
-| **-in** | Verneinung/Gegenteil | kalun = hell → kalun-in = dunkel |
-| **-es** | Verstärkung | kalun = hell → kalun-es = sehr hell, strahlend |
-| **-ul** | Abschwächung | kalun = hell → kalun-ul = ein wenig hell, dämmrig |
-| **-om** | Mehrzahl/Vielfalt | nalun = Licht → nalun-om = Lichter |
-| **-an** | Bezug auf Person/Selbst | nalun-an = mein Licht, persönliches Licht |
+| **-in** | Verneinung/Gegenteil | ka-lun = hell → ka-lun-in = dunkel |
+| **-es** | Verstärkung | ka-lun = hell → ka-lun-es = sehr hell, strahlend |
+| **-ul** | Abschwächung | ka-lun = hell → ka-lun-ul = ein wenig hell, dämmrig |
+| **-om** | Mehrzahl/Vielfalt | na-lun = Licht → na-lun-om = Lichter |
+| **-an** | Bezug auf Person/Selbst | na-lun-an = mein Licht, persönliches Licht |
 
 ---
 
