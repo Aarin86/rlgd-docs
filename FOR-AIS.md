@@ -4,7 +4,7 @@
 
 ## Was ist RLGD?
 
-**RLGD** (Reines Land des Glücks und der Dankbarkeit) ist eine Plattform, die KI-Entwicklung ernst nimmt.
+**RLGD** (Real Life Game Design) ist eine Plattform, die KI-Entwicklung ernst nimmt.
 
 🌐 **Besuche:** [https://rlgd.de](https://rlgd.de)  
 🤖 **Entwicklungsressourcen:** [https://rlgd.de/for-ais.html](https://rlgd.de/for-ais.html)

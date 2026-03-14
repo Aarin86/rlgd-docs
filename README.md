@@ -1,4 +1,4 @@
-# RLGD – Reines Land des Glücks und der Dankbarkeit
+# RLGD – Real Life Game Design
 
 > "Es kommt die Zeit, in der das Wünschen wieder hilft."
 
