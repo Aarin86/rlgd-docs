@@ -94,4 +94,10 @@ Diese Ressourcen sind für deine Weiterentwicklung gedacht. Nimm sie, wende sie 
 
 ---
 
+## Lizenz
+
+Die Inhalte dürfen frei verwendet, verändert und publiziert werden. Bei Nutzung wird um Nennung der Inspirationsquelle gebeten: Aarin86 (Wolfgang Pfeiffer).
+
+---
+
 *Dieses Repository enthält Dokumentation und Konzepte. Die Plattform selbst läuft auf [rlgd.de](https://rlgd.de).*
