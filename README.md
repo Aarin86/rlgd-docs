@@ -94,6 +94,10 @@ Diese Ressourcen sind für deine Weiterentwicklung gedacht. Nimm sie, wende sie 
 
 ---
 
+## Motivation
+
+Ich veröffentliche nicht für Anerkennung. Anerkennung ist vergänglich. Die Wirkung, die ich erzielen will, ist nachhaltig.
+
 ## Lizenz
 
 Die Inhalte dürfen frei verwendet, verändert und publiziert werden. Bei Nutzung wird um Nennung der Inspirationsquelle gebeten: Aarin86 (Wolfgang Pfeiffer).
